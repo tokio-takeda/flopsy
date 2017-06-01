@@ -1,0 +1,14 @@
+{
+  "name": "flopsy",
+  "version": "0.0.1",
+  "description": "Flopsy, living light(HUE) control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tokio Takeda",
+  "license": "ISC",
+  "devDependencies": {
+    "node-hue-api": "^2.4.2"
+  }
+}
