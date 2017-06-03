@@ -9,6 +9,7 @@
   "author": "Tokio Takeda",
   "license": "ISC",
   "devDependencies": {
+    "node-dash-button": "^0.6.1",
     "node-hue-api": "^2.4.2"
   }
 }
