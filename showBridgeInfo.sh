@@ -1,1 +1,1 @@
-node ./src/main/js/web/bridgecontroller.js
+node ./src/sample/js/web/bridgecontroller.js

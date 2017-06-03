@@ -1,14 +1,13 @@
 var HueApi = require("node-hue-api").HueApi;
+var bridge = require("../../../main/resources/bridge");
 
 var displayResult = function(result) {
     console.log(JSON.stringify(result, null, 2));
 };
 
-var host = "192.168.11.13",
-    username = "X07BCO6AStgwehX2vrwwDFqt5oAU9MsuK5MuUoCj",
-    api;
+var api;
 
-api = new HueApi(host, username);
+api = new HueApi(bridge.ip, bridge.username);
 
 // --------------------------
 // Using a promise
