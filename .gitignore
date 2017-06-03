@@ -58,4 +58,4 @@ typings/
 .env
 
 # local environment variables file
-.local
+**/resources/**/*.local
